@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="navbar fixed">
       <div className="navbar-nav">
-        <img src="./images/logo.png" alt="logo" />
+        <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
         <div className="links">
           <Link className="nav-item nav-link" to="/">
             Home

@@ -11,7 +11,7 @@ export default function GifSection(){
                     <h1 className="subheader">from All Your Cards or Accounts with Just One Card</h1>
                 </div>
                 <div className="img">
-                    <GifPlayer gif="./images/debit-card.gif" autoplay="true"/>
+                    <GifPlayer gif={process.env.PUBLIC_URL + '/images/debit-card.gif'} autoplay="true"/>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ export default function MobileApp(){
         <div className="container">
             <div className="mobileApp-section ">
                 <div className="mobileApp-img col-5">
-                    <img src="./images/app-transactions.png" alt="mobile-app"/>
+                    <img src={process.env.PUBLIC_URL + '/images/app-transactions.png'} alt="mobile-app"/>
                 </div>
                 <div className="mobileApp-text col-6">
                     <h1>Manage</h1>
