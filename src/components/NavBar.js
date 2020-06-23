@@ -1,22 +1,40 @@
-import React from "react";
-import {Link } from "react-router-dom";
+import React, { Component } from 'react';
+// import {Link } from "react-router-dom";
+import {Link} from 'react-scroll';
+// const ScrollLink = Scroll.ScrollLink;
 
-function NavBar() {
-  return (
-    <nav className="navbar fixed">
-      <div className="navbar-nav">
-        <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
-        <div className="links">
-          <Link className="nav-item nav-link" to="/">
-            Home
-          </Link>
-          <Link className="nav-item nav-link" to="#waitlist">
-            Waitlist
-          </Link>
-        </div>
-      </div>
-    </nav>
-  );
+
+class NavBar extends Component {
+
+  render() { 
+    return (
+        <nav className="navbar fixed">
+          <div className="navbar-nav">
+            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
+            <div className="links">
+              <Link 
+                className="nav-item nav-link"
+                to="home" 
+                spy={true} 
+                smooth={true} 
+                duration={500}
+              >
+                Home
+              </Link>
+              <Link 
+                className="nav-item nav-link"
+                to="whitelist" 
+                spy={true} 
+                smooth={true} 
+                duration={500} 
+              >
+              Whitelist
+            </Link> 
+            </div>
+          </div>
+        </nav>
+      );
+  }
 }
 
 export default NavBar;
