@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="hero container" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/background.png"})`}}>
       <div className="hero-section">
@@ -25,3 +25,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;

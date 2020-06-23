@@ -1,7 +1,7 @@
 import React from 'react';
 import "./MobileApp.css";
 
-export default function MobileApp(){
+const MobileApp = () => {
     return(
         <div className="container">
             <div className="mobileApp-section ">
@@ -16,3 +16,5 @@ export default function MobileApp(){
         </div>
     );
 }
+
+export default MobileApp;

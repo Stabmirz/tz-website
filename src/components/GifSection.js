@@ -2,7 +2,7 @@ import React from 'react';
 import GifPlayer from 'react-gif-player';
 import "./GifSection.css"
 
-export default function GifSection(){
+const GifSection = () =>{
     return(
         <div className="gif-section container">
             <div className="gif-container">
@@ -17,3 +17,5 @@ export default function GifSection(){
         </div>
     );
 }
+
+export default GifSection;

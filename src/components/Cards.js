@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Cards.css";
 
-export default function Cards(){
+const Cards = () => {
     return(
         <div className="container">
             <div className="cards-section ">
@@ -31,3 +31,5 @@ export default function Cards(){
         </div>
     );
 }
+
+export default Cards;

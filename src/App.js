@@ -9,7 +9,7 @@ import GifSection from "./components/GifSection";
 import MobileApp from "./components/MobileApp";
 import Cards from "./components/Cards";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <React.Fragment>
@@ -17,7 +17,7 @@ function App() {
         <Element id='home' name='home'>
             <Home />
           </Element>
-        <Element id='whitelist' name='whitelist'>
+        <Element id='waitlist' name='waitlist'>
             <Waitlist />
         </Element>
         <GifSection />

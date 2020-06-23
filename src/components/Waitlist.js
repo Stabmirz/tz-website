@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Waitlist.css"
 
-export default function Waitlist(){
+const Waitlist = () => {
     return(
         <div className="waitlist container" id="#waitlist">
             <h1>
@@ -18,3 +18,5 @@ export default function Waitlist(){
         </div>
     )
 }
+
+export default Waitlist;

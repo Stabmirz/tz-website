@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
-// import {Link } from "react-router-dom";
+import React from 'react';
 import {Link} from 'react-scroll';
-// const ScrollLink = Scroll.ScrollLink;
 
 
-class NavBar extends Component {
-
-  render() { 
+const NavBar = () => {
     return (
         <nav className="navbar fixed">
           <div className="navbar-nav">
@@ -30,18 +26,17 @@ class NavBar extends Component {
               </Link>
               <Link 
                 className="nav-item nav-link"
-                to="whitelist" 
+                to="Waitlist" 
                 spy={true} 
                 smooth={true} 
                 duration={500} 
               >
-              Whitelist
+              Waitlist
             </Link> 
             </div>
           </div>
         </nav>
       );
-  }
 }
 
 export default NavBar;
