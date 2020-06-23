@@ -1,0 +1,43 @@
+.hero {
+  background-image: url(/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -100px;
+}
+
+.hero-section {
+  width: 65%;
+  margin: 170px auto auto;
+  text-align: center;
+  position: relative;
+}
+
+.hero-img img {
+  width: 80%;
+  -webkit-filter: drop-shadow(10px 20px 10px #111);
+  filter: drop-shadow(10px 20px 10px #111);
+}
+
+.hero-text {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  margin: auto;
+}
+
+.hero-text div:first-child {
+  text-align: left;
+}
+.hero-text div:last-child {
+  text-align: right;
+}
+
+.hero-text h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+  text-shadow: 6px 6px 5px #01010163;
+}
+
+

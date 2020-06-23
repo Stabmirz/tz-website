@@ -1,0 +1,30 @@
+
+.mobileApp-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.mobileApp-img{
+    background-image: url(/images/backgroundcolumn.png);
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-right: 0%;
+    padding: 0;
+
+}
+
+.mobileApp-text{
+    text-align: right;
+    padding-right: 18%;
+    padding-top: 3%;
+}
+
+.mobileApp-text h1{
+    font-size: 140px;
+    margin-bottom: 20px;
+}
+.mobileApp-text .subheader{
+    font-size: 66px;
+    line-height: 1.6;
+}

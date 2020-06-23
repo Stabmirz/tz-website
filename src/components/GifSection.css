@@ -1,0 +1,22 @@
+.gif-section.container{
+    min-width: 65%;
+}
+
+.gif-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.gif-container >div{
+    width: 45%;
+}
+
+.gif-container .text h1{
+    font-size: 140px;
+    margin-bottom: 20px;
+}
+.gif-container .text .subheader{
+    font-size: 66px;
+    line-height: 1.6;
+}

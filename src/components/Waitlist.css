@@ -1,0 +1,67 @@
+.waitlist.container {
+  min-width: 65%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.waitlist h1 {
+  font-size: 160px;
+  z-index: 100;
+  text-shadow: 6px 6px 5px #01010163;
+}
+
+.join-waitlist {
+  width: 45%;
+  background-color: #523149;
+  align-self: flex-end;
+  height: 40vh;
+  z-index: 1;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 43%;
+  right: 3%;
+  border: 1px solid #686868;
+  -webkit-box-shadow: 6px 6px 7px 0px #0000005e;
+  -moz-box-shadow: 6px 6px 7px 0px #0000005e;
+  box-shadow: 6px 6px 7px 0px #0000005e;
+}
+
+.join-waitlist h5 {
+  margin-top: 33%;
+  text-shadow: 6px 6px 5px #01010163;
+  font-weight: 400;
+}
+
+.join-waitlist form {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.join-waitlist input[type="text"] {
+  width: 100%;
+  font-size: 12px;
+  padding: 28px;
+}
+
+.join-waitlist input[type="submit"] {
+  margin-left: -145px;
+  width: 140px;
+  margin-top: 4px;
+  padding: 12px;
+  background-color: rgb(46, 177, 46);
+}
+
+form .border {
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 50px;
+}
