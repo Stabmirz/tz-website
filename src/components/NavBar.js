@@ -11,7 +11,6 @@ class NavBar extends Component {
         <nav className="navbar fixed">
           <div className="navbar-nav">
             <Link 
-              className="nav-item nav-link"
               to="home" 
               spy={true} 
               smooth={true} 
