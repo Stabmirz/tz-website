@@ -29,11 +29,13 @@ body {
 
 .navbar-nav img {
   width: 80px;
+  cursor: pointer;
 }
 
 .links {
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .navbar-nav .nav-link {

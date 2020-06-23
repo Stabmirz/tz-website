@@ -10,7 +10,15 @@ class NavBar extends Component {
     return (
         <nav className="navbar fixed">
           <div className="navbar-nav">
-            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
+            <Link 
+              className="nav-item nav-link"
+              to="home" 
+              spy={true} 
+              smooth={true} 
+              duration={500}
+            >
+              <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
+            </Link>
             <div className="links">
               <Link 
                 className="nav-item nav-link"
