@@ -3,7 +3,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div className="hero container">
+    <div className="hero container" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/background.png"})`}}>
       <div className="hero-section">
         <div className="hero-img">
           <img src={process.env.PUBLIC_URL + '/images/ccds.png'} alt="cards" />

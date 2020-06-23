@@ -5,7 +5,7 @@ export default function MobileApp(){
     return(
         <div className="container">
             <div className="mobileApp-section ">
-                <div className="mobileApp-img col-5">
+                <div className="mobileApp-img col-5" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/backgroundcolumn.png"})`}}>
                     <img src={process.env.PUBLIC_URL + '/images/app-transactions.png'} alt="mobile-app"/>
                 </div>
                 <div className="mobileApp-text col-6">
