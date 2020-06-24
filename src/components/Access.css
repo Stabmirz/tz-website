@@ -1,0 +1,36 @@
+.access-section{
+    display: flex;
+    margin-top: 70px;
+    position: relative;
+}
+
+.access-section > div:first-child{
+    width:10%;
+    height: 350px;
+}
+
+.access-section> div:last-child{
+    background-color: #3e7588;
+    width:90%;
+    height: 350px;
+    padding: 50px 100px;
+    text-align: right;
+}
+
+.access-section> div:last-child h1{
+    line-height: 1.4;
+}
+
+.paid{
+    width: 620px;
+    position: absolute;
+    top: -75px;
+    left: 365px;
+}
+
+.online-shopping{
+    width: 400px;
+    top: 160px;
+    left: 655px;
+    position: absolute;
+}
