@@ -22,9 +22,6 @@
   line-height: 1.6;
 }
 
-.gif-container img {
-  width: 100%;
-}
 
 @media only screen and (max-width: 1024px) {
   .gif-section.container {
@@ -40,6 +37,9 @@
   }
   .gif-container .text .subheader {
     font-size: 50px;
+  }
+  .gif-container img {
+    width: 100%;
   }
 }
 

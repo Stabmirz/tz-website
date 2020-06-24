@@ -66,22 +66,22 @@ form .border {
   height: 50px;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .waitlist.container {
     min-width: 85%;
   }
 
-  .waitlist h1{
+  .waitlist h1 {
     font-size: 135px;
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .waitlist.container {
     width: 96%;
   }
 
-  .waitlist h1{
+  .waitlist h1 {
     font-size: 100px;
   }
   .join-waitlist h5 {
@@ -99,7 +99,7 @@ form .border {
   }
 }
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 640px) {
   .waitlist h1 {
     font-size: 60px;
   }
@@ -107,11 +107,11 @@ form .border {
     height: 30vh;
     width: 85%;
   }
-  
- .join-waitlist h5 {
+
+  .join-waitlist h5 {
     margin-top: 18%;
   }
-  
+
   .join-waitlist input[type="submit"] {
     width: 140px;
     padding: 10px;
@@ -119,24 +119,30 @@ form .border {
   }
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 414px) {
   .waitlist h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .join-waitlist {
-    height: 30vh;
+    height: 27vh;
     top: 47%;
-    right: 3%;
+    right: 4%;
     width: 85%;
   }
   .join-waitlist h5 {
-    margin-top: 27%;
+    margin-top: 23%;
   }
+  
   .join-waitlist input[type="submit"] {
-    width: 120px;
-    font-size: 16px;
+    width: 100px;
     margin-top: 4px;
-    padding: 10px;
-    margin-left: -125px;
+    font-size: 12px;
+    height: 42px;
+    padding: -12px;
+    margin-left: -103px;
+  }
+
+  .join-waitlist input[type="text"] {
+    padding: 15px;
   }
 }

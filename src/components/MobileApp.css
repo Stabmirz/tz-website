@@ -62,3 +62,12 @@
         padding: 10% 5% 0 0;
     }
 }
+
+@media only screen and (max-width: 414px){
+    .mobileApp-section{
+        flex-direction: column;
+    }
+    .mobileApp-section >div{
+        max-width: 100%;
+    }
+}
