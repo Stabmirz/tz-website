@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-links">
           <div>
             <div className="pages">
-              <a href="/#waitlist">Waitlist</a>
+              <a href="/tz-website/#waitlist">Waitlist</a>
             </div>
             <div className="pages">
               <a href="/#">Press Inquiries</a>
