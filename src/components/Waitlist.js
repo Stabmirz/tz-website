@@ -8,7 +8,7 @@ const Waitlist = () => {
                 Join the Waitlist
             </h1>
             <div className="join-waitlist">
-                <h5>Be one of the first to access TanZsend.</h5>
+                <h5>Be one of the first to access TranZsend.</h5>
                 <br/>
                 <form>
                     <input type="text" className="border" placeholder="name@email.com"/>

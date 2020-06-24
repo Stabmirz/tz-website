@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-note">
-        <span>© 2020 TranZsend LLC. All right reserved.</span>
+        <span>© 2020 TranZsend LLC. All rights reserved.</span>
         <br />
         <p>
           The TranZsend card is issued by WebBank, Member FDIC, pursuant to a
