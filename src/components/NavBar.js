@@ -26,7 +26,7 @@ const NavBar = () => {
               </Link>
               <Link 
                 className="nav-item nav-link"
-                to="Waitlist" 
+                to="waitlist" 
                 spy={true} 
                 smooth={true} 
                 duration={500} 

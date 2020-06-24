@@ -3,7 +3,7 @@ import "./Waitlist.css"
 
 const Waitlist = () => {
     return(
-        <div className="waitlist container" id="#waitlist">
+        <div className="waitlist container">
             <h1>
                 Join the Waitlist
             </h1>
