@@ -28,3 +28,27 @@
 .cards-section>div:nth-child(4){
     background-color: #452b48;
 }
+
+
+@media only screen and (max-width: 1024px){
+
+    .cards-section>div {
+        padding: 30px 10px;
+    }
+    .cards-section h1{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .cards-section{
+        flex-direction: column;
+    }
+
+    .cards-section>div {
+        width:80%;
+        margin: auto auto 20px auto;
+    }
+    
+}

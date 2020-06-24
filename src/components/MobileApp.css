@@ -27,3 +27,38 @@
     font-size: 66px;
     line-height: 1.6;
 }
+
+
+@media only screen and (max-width: 1024px){
+    .mobileApp-text {
+        padding: 10% 10% 0 0;
+    }
+    .mobileApp-text h1 {
+        font-size: 120px;
+    }
+    .mobileApp-text .subheader {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+    .mobileApp-img {
+        height: 500px;
+    }
+    .mobileApp-img img{
+        height: 500px;
+    }
+    .mobileApp-text h1 {
+        font-size: 90px;
+    }
+    .mobileApp-text .subheader {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .mobileApp-text {
+        padding: 10% 5% 0 0;
+    }
+}

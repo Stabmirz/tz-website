@@ -4,15 +4,17 @@
     position: relative;
 }
 
+.access-section > div{
+    height: 350px;
+}
+
 .access-section > div:first-child{
     width:10%;
-    height: 350px;
 }
 
 .access-section> div:last-child{
     background-color: #3e7588;
     width:90%;
-    height: 350px;
     padding: 50px 100px;
     text-align: right;
 }
@@ -25,7 +27,7 @@
     width: 620px;
     position: absolute;
     top: -75px;
-    left: 365px;
+    left: 265px;
     -webkit-filter: drop-shadow(5px 10px 5px #00000085);
     filter: drop-shadow(5px 10px 5px #00000085);
 }
@@ -33,8 +35,80 @@
 .online-shopping{
     width: 400px;
     top: 160px;
-    left: 655px;
+    left: 555px;
     position: absolute;
     -webkit-filter: drop-shadow(5px 20px 5px #00000085);
     filter: drop-shadow(5px 20px 5px #00000085);
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    .access-section > div{
+        height: 300px;
+    }
+    .paid {
+        width: 390px;
+        top: -13px;
+        left: 80px;
+    }
+    .online-shopping {
+        width: 290px;
+        top: 138px;
+        left: 263px;
+    }
+
+    .access-section> div:last-child {
+        padding: 58px 75px;
+    }
+
+    .access-section> div:last-child h1{
+        font-size: 28px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+    .access-section > div{
+        height: 220px;
+    }
+
+    .paid {
+        width: 300px;
+        left: 38px;
+    }
+
+    .online-shopping {
+        width: 240px;
+        top: 115px;
+        left: 145px;
+    }
+
+    .access-section> div:last-child {
+        padding: 30px 40px;
+    }
+
+    .access-section> div:last-child h1{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .paid {
+        top: -130px;
+        left: 18px;
+        width: 350px;
+    }
+
+    .online-shopping {
+        top: 0px;
+        left: 190px;
+    }
+    .access-section > div {
+        height: 420px;
+    }
+    .access-section> div:last-child {
+        padding: 180px 40px;
+        
+    }
 }

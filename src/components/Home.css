@@ -39,4 +39,29 @@
   text-shadow: 6px 6px 5px #01010163;
 }
 
+@media only screen and (max-width: 1024px){
+  .hero-section {
+    min-width: 85%;
+    margin: 180px auto auto;
+  }
 
+  .hero-text {
+    top: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .hero-section {
+    margin: auto auto;
+  }
+
+  .hero-text {
+    top: -11px;
+  }
+}
+
+@media only screen and (max-width: 414px){
+  .hero-text h1 {
+    font-size: 45px;
+  }
+}

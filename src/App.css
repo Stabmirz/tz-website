@@ -1,6 +1,9 @@
+html,
 body {
   background-color: #26435e;
   font-family: "Anton", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
@@ -40,16 +43,29 @@ body {
 
 .navbar-nav .nav-link {
   color: white;
-  margin: auto 40px;
+  margin: auto 0 auto 80px;
 }
 
 .container {
   min-height: 100vh;
   min-width: 100%;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   z-index: 1;
   justify-content: center;
   color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar-nav {
+    min-width: 85%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .navbar-nav .nav-link {
+    margin: auto 0 auto 30px;
+  }
 }

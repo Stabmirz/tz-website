@@ -65,3 +65,78 @@ form .border {
   font-weight: bold;
   height: 50px;
 }
+
+@media only screen and (max-width: 1024px){
+  .waitlist.container {
+    min-width: 85%;
+  }
+
+  .waitlist h1{
+    font-size: 135px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .waitlist.container {
+    width: 96%;
+  }
+
+  .waitlist h1{
+    font-size: 100px;
+  }
+  .join-waitlist h5 {
+    margin-top: 32%;
+  }
+
+  .join-waitlist {
+    height: 27vh;
+    top: 47%;
+    right: 4%;
+  }
+
+  .join-waitlist {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  .waitlist h1 {
+    font-size: 60px;
+  }
+  .join-waitlist {
+    height: 30vh;
+    width: 85%;
+  }
+  
+ .join-waitlist h5 {
+    margin-top: 18%;
+  }
+  
+  .join-waitlist input[type="submit"] {
+    width: 140px;
+    padding: 10px;
+    margin-left: -145px;
+  }
+}
+
+@media only screen and (max-width: 414px){
+  .waitlist h1 {
+    font-size: 60px;
+  }
+  .join-waitlist {
+    height: 30vh;
+    top: 47%;
+    right: 3%;
+    width: 85%;
+  }
+  .join-waitlist h5 {
+    margin-top: 27%;
+  }
+  .join-waitlist input[type="submit"] {
+    width: 120px;
+    font-size: 16px;
+    margin-top: 4px;
+    padding: 10px;
+    margin-left: -125px;
+  }
+}
