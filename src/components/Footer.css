@@ -1,3 +1,47 @@
 .footer.container{
     background-color: #452b48;
+    align-content: center;
+}
+
+.footer-section{
+    display: flex;
+    width: 70%;
+    margin: 5% auto 0;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    text-align: center;
+    width: 50%;
+}
+
+.footer-note{
+    align-self: flex-end;
+    width: 50%;
+    padding: 5% 5% 0;
+}
+
+.footer-note p{
+    font-size: 14px;
+    font-family: serif;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.footer-links{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.footer-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 28px;
+    
+}
+
+.pages, .social-media{
+    margin-bottom: 20px;
 }
