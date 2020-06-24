@@ -47,7 +47,7 @@ const Footer = () => {
         <br />
         <p>
           The TranZsend card is issued by WebBank, Member FDIC, pursuant to a
-          license from Mastercard International. TranZsend Cheeking is provided
+          license from Mastercard International. TranZsend Checking is provided
           through Evolve Bank & Trust, Member FDIC. All text, graphics, audio
           files, code downloadable material, and other works on this website are
           the copyrighted works of Zero Financial, Inc. All right Reserved. Any
