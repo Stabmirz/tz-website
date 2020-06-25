@@ -21,7 +21,7 @@ const Waitlist = () => {
                     </div>
                 </form> */}
 
-                <form action="https://tranzsend.us10.list-manage.com/subscribe/post?u=24131087bfbc7de64dd678000&amp;id=c05dd4ee89" method="post" className="animate__animated animate__fadeInUp">
+                <form action="https://tranzsend.us10.list-manage.com/subscribe/post?u=24131087bfbc7de64dd678000&amp;id=c05dd4ee89" method="post" className="animate__animated animate__fadeInUp" target="_blank" noValidate>
                     <input type="text" className="border" placeholder="name@email.com"/>
                     <input type="submit" className="border" value="Join Waitlist"/>
                 </form>
