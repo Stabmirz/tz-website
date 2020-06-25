@@ -68,10 +68,27 @@
 }
 
 @media only screen and (max-width: 414px){
-    /* .mobileApp-section{
-        flex-direction: column;
+
+    .mobileApp-img {
+        width: 45vw;
     }
-    .mobileApp-section >div{
-        max-width: 100%;
-    } */
+
+    .mobileApp-img img {
+        width: 25vw;
+    }
+ 
+    .mobileApp-text{
+        padding-right: 10%;
+        padding-top: 3%;
+        width: 50vw;
+    }
+    .mobileApp-text {
+        padding-right: 4%;
+    }
+    .mobileApp-text h1 {
+        font-size: 12vw;
+    }
+    .mobileApp-text .subheader {
+        font-size: 5vw;
+    } 
 }

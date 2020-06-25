@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Terms from "./TermsOfUse";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,33 +12,33 @@ const Footer = () => {
         <div className="footer-links">
           <div>
             <div className="pages">
-              <a href="/tz-website/#waitlist">Waitlist</a>
+            <Link to="/tz-website/#waitlist">Waitlist</Link>
             </div>
             <div className="pages">
-              <a href="/#">Press Inquiries</a>
+              <Link to="/tz-website" >Press Inquiries</Link>
             </div>
             <div className="pages">
-              <a href="https://stabmirz.github.io/tz-website/terms">Terms of Use</a>
+                <Link to="/tz-website/terms" >Terms of Use</Link>
             </div>
             <div className="pages">
-              <a href="/#">Privacy Policy</a>
+              <Link to="/tz-website" >Privacy Policy</Link>
             </div>
           </div>
           <div>
             <div className="social-media">
-              <a href="/#">Facebook</a>
+              <Link to="/tz-website" >Facebook</Link>
             </div>
             <div className="social-media">
-              <a href="/#">Twitter</a>
+              <Link to="/tz-website" >Twitter</Link>
             </div>
             <div className="social-media">
-              <a href="/#">Instagram</a>
+              <Link to="/tz-website" >Instagram</Link>
             </div>
             <div className="social-media">
-              <a href="/#">LinkedIn</a>
+              <Link to="/tz-website" >LinkedIn</Link>
             </div>
             <div className="social-media">
-              <a href="/#">YouTube</a>
+              <Link to="/tz-website" >YouTube</Link>
             </div>
           </div>
         </div>

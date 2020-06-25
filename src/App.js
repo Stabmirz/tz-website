@@ -1,7 +1,6 @@
 import React from "react";
 import "animate.css/animate.min.css";
 import "./App.css";
-import {Element} from 'react-scroll';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";

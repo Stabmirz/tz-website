@@ -105,3 +105,9 @@ body {
     margin: auto 0 auto 30px;
   }
 }
+
+@media only screen and (max-width: 414px) {
+  .navbar-nav  {
+    min-width: 90vw;
+  }
+}

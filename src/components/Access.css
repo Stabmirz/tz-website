@@ -1,6 +1,5 @@
 .access-section {
   display: flex;
-  margin-top: 70px;
   position: relative;
 }
 
@@ -55,7 +54,7 @@
     }
 }
 
-@media only screen and (max-width: 414px) {
+/* @media only screen and (max-width: 414px) {
 
     .access-section > div:last-child h1 {
         font-size: 3.5vw;
@@ -71,8 +70,35 @@
     .access-section > div {
         height: 16vh;
     }
+} */
+
+
+@media only screen and (max-width: 414px) {
+
+
+    .access-section > div:last-child {
+      justify-content: flex-end;
+      padding-bottom: 10px;
+    }
+    
+    .access-section > div:last-child h1 {
+      font-size: 5vw;
+      line-height: 1.2;
+    }
+    .paid {
+        left: 4vw;
+        width: 64vw;
+    }
+      
+      .online-shopping {
+        left: 35vw;
+        width: 50vw;
+        top: 19vw;
+    }
+
+    .access-section > div {
+        height: 52vh;
+    }
 }
 
-@media only screen and (max-width: 640px) {
 
-}

@@ -56,10 +56,16 @@
   }
 }
 
+
 @media only screen and (max-width: 414px){
   .hero-text h1 {
-    font-size: 8vw;
+    font-size: 12vw;
   }
+
+ .hero-section {
+    min-width: 90vw;
+  }
+
   .hero-text {
     top: 0vh;
   }
