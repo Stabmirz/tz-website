@@ -1,27 +1,24 @@
 .waitlist.container {
-  min-width: 65%;
+  min-width: 65vw;
   margin: auto;
   text-align: center;
   position: relative;
 }
 
 .waitlist h1 {
-  font-size: 160px;
+  font-size: 11vw;
   z-index: 100;
   text-shadow: 6px 6px 5px #01010163;
 }
 
 .join-waitlist {
-  width: 45%;
+  width: 46%;
   background-color: #523149;
-  align-self: flex-end;
-  height: 40vh;
+  height: 43vh;
   z-index: 1;
-  justify-content: center;
-  align-content: center;
   position: absolute;
   top: 43%;
-  right: 3%;
+  right: 2%;
   border: 1px solid #686868;
   -webkit-box-shadow: 6px 6px 7px 0px #0000005e;
   -moz-box-shadow: 6px 6px 7px 0px #0000005e;
@@ -29,14 +26,14 @@
 }
 
 .join-waitlist h5 {
-  margin-top: 33%;
+  margin-top: 24vh;
   text-shadow: 6px 6px 5px #01010163;
   font-weight: 400;
 }
 
 .join-waitlist form {
   width: 90%;
-  margin: auto;
+  margin: auto auto 10px;
   display: flex;
   flex-direction: row;
 }
@@ -47,11 +44,19 @@
   padding: 28px;
 }
 
+.join-waitlist input[type="text"]:focus, .join-waitlist input[type="submit"]:focus {
+  outline: none;
+}
+
 .join-waitlist input[type="submit"] {
   margin-left: -145px;
   width: 140px;
   margin-top: 4px;
   padding: 12px;
+  background-color: rgb(51, 201, 51);
+}
+
+.join-waitlist input[type="submit"]:hover {
   background-color: rgb(46, 177, 46);
 }
 
@@ -66,13 +71,28 @@ form .border {
   height: 50px;
 }
 
+@media only screen and (min-width: 1600px) {
+  .waitlist h1 {
+    font-size: 10vw;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .waitlist.container {
-    min-width: 85%;
+    min-width: 85vw;
   }
 
   .waitlist h1 {
-    font-size: 135px;
+    font-size: 13vw;
+  }
+
+  .join-waitlist {
+    height: 22%;
+    top: 46.5%;
+    right: 3%;
+  }
+  .join-waitlist h5 {
+    margin-top: 12vh;
   }
 }
 
@@ -81,9 +101,6 @@ form .border {
     width: 96%;
   }
 
-  .waitlist h1 {
-    font-size: 100px;
-  }
   .join-waitlist h5 {
     margin-top: 32%;
   }
@@ -100,12 +117,10 @@ form .border {
 }
 
 @media only screen and (max-width: 640px) {
-  .waitlist h1 {
-    font-size: 60px;
-  }
+
   .join-waitlist {
-    height: 30vh;
-    width: 85%;
+    width: 100%;
+    right: 0%;
   }
 
   .join-waitlist h5 {
@@ -120,19 +135,11 @@ form .border {
 }
 
 @media only screen and (max-width: 414px) {
-  .waitlist h1 {
-    font-size: 55px;
-  }
   .join-waitlist {
     height: 27vh;
     top: 47%;
-    right: 4%;
-    width: 85%;
   }
-  .join-waitlist h5 {
-    margin-top: 23%;
-  }
-  
+
   .join-waitlist input[type="submit"] {
     width: 100px;
     margin-top: 4px;

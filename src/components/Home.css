@@ -5,14 +5,14 @@
 }
 
 .hero-section {
-  width: 65%;
-  margin: 170px auto auto;
+  width: 65vw;
+  margin: 20vh auto auto;
   text-align: center;
   position: relative;
 }
 
 .hero-img img {
-  width: 80%;
+  width: 50vw;
   -webkit-filter: drop-shadow(10px 20px 10px #111);
   filter: drop-shadow(10px 20px 10px #111);
 }
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: 60px;
+  top: 4vh;
   width: 100%;
   margin: auto;
 }
@@ -34,19 +34,19 @@
 }
 
 .hero-text h1 {
-  font-size: 70px;
+  font-size: 5vw;
   margin-bottom: 20px;
   text-shadow: 6px 6px 5px #01010163;
 }
 
 @media only screen and (max-width: 1024px){
   .hero-section {
-    min-width: 85%;
-    margin: 180px auto auto;
+    min-width: 80%;
+    margin: 30vh auto auto;
   }
 
-  .hero-text {
-    top: 25px;
+  .hero-img img {
+    width: 65vw;
   }
 }
 
@@ -54,14 +54,13 @@
   .hero-section {
     margin: auto auto;
   }
-
-  .hero-text {
-    top: -11px;
-  }
 }
 
 @media only screen and (max-width: 414px){
   .hero-text h1 {
-    font-size: 45px;
+    font-size: 8vw;
+  }
+  .hero-text {
+    top: 0vh;
   }
 }

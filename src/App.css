@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-nav {
-  width: 65%;
+  width: 65vw;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -48,7 +48,7 @@ body {
 
 .container {
   min-height: 100vh;
-  min-width: 100%;
+  min-width: 100vw;
   padding: 0;
   margin: 0;
   display: flex;
@@ -58,9 +58,45 @@ body {
   color: white;
 }
 
+
+
+@media only screen and (max-width: 640px) {
+  .terms{
+
+  }
+}
+
+/* Terms & Conditions */
+
+.terms{
+  color: white;
+  text-align: center;
+  width: 65vw;
+  margin: 80px auto 0;
+}
+
+.terms-title h1{
+  font-size: 4vh;
+
+}
+
+.terms-title p, .terms-text, .terms-text p{
+  font-family: sans-serif;
+  text-align: justify;
+  margin: 30px 0 30px;
+}
+
+.terms-text h5{
+  font-weight: 600;
+  margin:30px 0 30px;
+}
+
 @media only screen and (max-width: 1024px) {
   .navbar-nav {
-    min-width: 85%;
+    min-width: 80%;
+  }
+  .terms{
+    width: 85%;
   }
 }
 

@@ -2,35 +2,39 @@
 .mobileApp-section{
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
 }
 
 .mobileApp-img{
     background-repeat: no-repeat;
     text-align: right;
-    margin-right: 0%;
+    background-size: cover;
+    width: 40vw;
     padding: 0;
+}
 
+.mobileApp-img img{
+    width: 20vw;
 }
 
 .mobileApp-text{
     text-align: right;
     padding-right: 18%;
     padding-top: 3%;
+    width: 50vw;
 }
 
 .mobileApp-text h1{
-    font-size: 140px;
+    font-size: 10vw;
     margin-bottom: 20px;
 }
 .mobileApp-text .subheader{
-    font-size: 66px;
+    font-size: 4vw;
     line-height: 1.6;
 }
 
 
 @media only screen and (max-width: 1024px){
-    .mobileApp-text {
+    /* .mobileApp-text {
         padding: 10% 10% 0 0;
     }
     .mobileApp-text h1 {
@@ -38,12 +42,12 @@
     }
     .mobileApp-text .subheader {
         font-size: 50px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 768px){
     
-    .mobileApp-img {
+    /* .mobileApp-img {
         height: 500px;
     }
     .mobileApp-img img{
@@ -54,20 +58,20 @@
     }
     .mobileApp-text .subheader {
         font-size: 40px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 640px){
-    .mobileApp-text {
+    /* .mobileApp-text {
         padding: 10% 5% 0 0;
-    }
+    } */
 }
 
 @media only screen and (max-width: 414px){
-    .mobileApp-section{
+    /* .mobileApp-section{
         flex-direction: column;
     }
     .mobileApp-section >div{
         max-width: 100%;
-    }
+    } */
 }

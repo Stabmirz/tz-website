@@ -1,54 +1,50 @@
-.cards-section{
-    display: flex;
+.cards-section {
+  display: flex;
 }
-.cards-section>div{
-    width: 25%;
-    text-align: center;
-    padding: 50px 50px;
-}
-
-.cards-section img{
-    width:75px;
-    margin-bottom: 20px;
+.cards-section > div {
+  width: 25vw;
+  text-align: center;
+  padding: 3vw 2vw;
 }
 
-.cards-section h1{
-    font-size: 40px;
+.cards-section img {
+  width: 75px;
+  margin-bottom: 20px;
 }
 
-.cards-section>div:nth-child(1){
-    background-color: #3e7588;
-}
-.cards-section>div:nth-child(2){
-    background-color: #48546f;
-}
-.cards-section>div:nth-child(3){
-    background-color: #a1626b;
-}
-.cards-section>div:nth-child(4){
-    background-color: #452b48;
+.cards-section h1 {
+  font-size: 2vw;
 }
 
-
-@media only screen and (max-width: 1024px){
-
-    .cards-section>div {
-        padding: 30px 10px;
-    }
-    .cards-section h1{
-        font-size: 35px;
-    }
+.cards-section > div:nth-child(1) {
+  background-color: #3e7588;
+}
+.cards-section > div:nth-child(2) {
+  background-color: #48546f;
+}
+.cards-section > div:nth-child(3) {
+  background-color: #a1626b;
+}
+.cards-section > div:nth-child(4) {
+  background-color: #452b48;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 414px) {
+   .cards-section {
+    flex-direction: column;
+  }
 
-    .cards-section{
-        flex-direction: column;
-    }
+   .cards-section > div{
+        width: 80vw;
+        margin: auto auto 20px;
+  }
 
-    .cards-section>div {
-        width:80%;
-        margin: auto auto 20px auto;
-    }
-    
+  .cards-section img {
+    width: 50px;
+  }
+
+   .cards-section h1 {
+    font-size: 4vw;
+  } 
 }
+

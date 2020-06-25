@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import Terms from "./TermsOfUse";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
               <a href="/#">Press Inquiries</a>
             </div>
             <div className="pages">
-              <a href="/#">Terms of Use</a>
+              <a href="/tz-website/terms">Terms of Use</a>
             </div>
             <div className="pages">
               <a href="/#">Privacy Policy</a>

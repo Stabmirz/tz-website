@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-scroll';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 const NavBar = () => {
@@ -7,8 +7,7 @@ const NavBar = () => {
         <nav className="navbar fixed">
           <div className="navbar-nav">
             <Link 
-              to="home" 
-              spy={true} 
+              to="/tz-website/#home" 
               smooth={true} 
               duration={500}
             >
@@ -17,8 +16,7 @@ const NavBar = () => {
             <div className="links">
               <Link 
                 className="nav-item nav-link"
-                to="home" 
-                spy={true} 
+                to="/tz-website/#home" 
                 smooth={true} 
                 duration={500}
               >
@@ -26,8 +24,7 @@ const NavBar = () => {
               </Link>
               <Link 
                 className="nav-item nav-link"
-                to="waitlist" 
-                spy={true} 
+                to="/tz-website/#waitlist" 
                 smooth={true} 
                 duration={500} 
               >

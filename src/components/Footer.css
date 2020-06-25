@@ -5,39 +5,43 @@
 
 .footer-section{
     display: flex;
-    width: 70%;
-    margin: 5% auto 0;
+    width: 80vw;
+    margin: 15vh auto 0;
     justify-content: space-between;
 }
 
 .footer-logo{
     text-align: center;
-    width: 50%;
+    width: 70vw;
 }
 
 .footer-note{
     align-self: flex-end;
-    width: 50%;
-    padding: 5% 5% 0;
+    width: 50vw;
+    padding: 5vw 5vw 0;
+}
+
+.footer-note span{
+    font-size: 1vw;
 }
 
 .footer-note p{
-    font-size: 14px;
+    font-size: 1vw;
     font-family: serif;
-    line-height: 1.2;
+    line-height: 1;
     margin-top: 10px;
 }
 
 .footer-links{
     display: flex;
-    width: 50%;
+    width: 50vw;
     justify-content: space-around;
 }
 
 .footer-links a{
     text-decoration: none;
     color: white;
-    font-size: 28px;
+    font-size: 2vw;
 }
 
 .footer-links a:hover{
@@ -48,22 +52,44 @@
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 1024px){
+    .footer-section {
+        margin: 0vh auto 0;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .footer-section {
         width: 90%;
     }
 }
-@media only screen and (max-width: 640px){
+
+@media only screen and (max-width: 414px){
     .footer-section {
         width: 100%;
+        flex-direction: column;
     }
-    .footer-note {
-        width: 100%;
+    .footer-note p{
+        font-size: 2vw;
     }
-    .footer-links {
-        width: 60%;
+    .footer-note{
+        width: 65vw;
+    }
+    .footer-note span{
+        font-size: 3vw;
+    }
+    .footer-links a {
+        font-size: 5vw;
+    }
+    .footer-logo , .footer-links {
+        width: 80%;
+        margin: auto;
+    }
+    .footer-logo img{
+        width: 30vw;
     }
     .footer-logo {
-        width: 40%;
+        margin-bottom: 30px;
+        margin-top: 50px;
     }
 }

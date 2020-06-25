@@ -6,6 +6,7 @@ const GifSection = () =>{
     return(
         <div className="gif-section container">
             <div className="gif-container">
+                
                 <div className="text">
                     <h1>Spend</h1>
                     <h1 className="subheader">from All Your Cards or Accounts with Just One Card</h1>

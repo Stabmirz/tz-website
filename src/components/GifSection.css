@@ -1,5 +1,5 @@
 .gif-section.container {
-  min-width: 65%;
+  min-width: 65vw;
   margin: auto;
 }
 
@@ -12,60 +12,28 @@
 .gif-container > div {
   width: 45%;
 }
+.gif-container img {
+    width: 43vw;
+  }
 
 .gif-container .text h1 {
-  font-size: 140px;
+  font-size: 10vw;
   margin-bottom: 20px;
 }
+
 .gif-container .text .subheader {
-  font-size: 66px;
+  font-size: 4vw;
   line-height: 1.6;
 }
 
-
 @media only screen and (max-width: 1024px) {
-  .gif-section.container {
-    min-width: 85%;
-  }
-
   .gif-container {
     justify-content: space-evenly;
   }
 
-  .gif-container .text h1 {
-    font-size: 120px;
-  }
   .gif-container .text .subheader {
-    font-size: 50px;
-  }
-  .gif-container img {
-    width: 100%;
+    font-size: 4.5vw;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .gif-section.container {
-    min-width: 100%;
-  }
-  .gif-container .text h1 {
-    font-size: 90px;
-  }
-  .gif-container .text .subheader {
-    font-size: 40px;
-  }
-}
 
-@media only screen and (max-width: 640px) {
-  .gif-container {
-    flex-direction: column-reverse;
-  }
-
-  .gif-container > div {
-    width: 80%;
-    margin: auto auto 50px;
-  }
-
-  .gif-container .text .subheader {
-    margin-bottom: 30%;
-  }
-}
