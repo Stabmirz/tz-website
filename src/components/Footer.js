@@ -18,7 +18,7 @@ const Footer = () => {
               <a href="/#">Press Inquiries</a>
             </div>
             <div className="pages">
-              <a href="/tz-website/terms">Terms of Use</a>
+              <a href="https://stabmirz.github.io/tz-website/terms">Terms of Use</a>
             </div>
             <div className="pages">
               <a href="/#">Privacy Policy</a>
