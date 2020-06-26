@@ -13,18 +13,18 @@ const Access = () => {
           }}
         ></div>
         <div>
-            <h1 className="animate__animated animate__fadeInRight">Have access to all your money</h1>
-            <h1 className="animate__animated animate__fadeInRight">with TranZend Card</h1>
-            <h1 className="animate__animated animate__fadeInRight">and use however you wish,</h1>
-            <h1 className="animate__animated animate__fadeInRight">for in-stores or online purchases.</h1>
+            <h1 className="animatable fadeInRight">Have access to all your money</h1>
+            <h1 className="animatable fadeInRight">with TranZend Card</h1>
+            <h1 className="animatable fadeInRight">and use however you wish,</h1>
+            <h1 className="animatable fadeInRight">for in-stores or online purchases.</h1>
           <img
             src={process.env.PUBLIC_URL + "/images/products-are-paid.jpg"}
-            className="paid animate__animated animate__fadeInDown"
+            className="paid animatable fadeInDown"
             alt="cards"
           />
           <img
             src={process.env.PUBLIC_URL + "/images/online-shopping.jpg"}
-            className="online-shopping animate__animated animate__fadeInUp"
+            className="online-shopping animatable fadeInUp"
             alt="cards"
           />
         </div>

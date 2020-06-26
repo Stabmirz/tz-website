@@ -7,12 +7,12 @@ const GifSection = () => {
     <div className="gif-section container">
       <div className="gif-container">
         <div className="text">
-          <h1 className="animate__animated animate__fadeInLeft">Spend</h1>
-          <h1 className="subheader animate__animated animate__fadeInLeft">
+          <h1 className="animatable fadeInLeft">Spend</h1>
+          <h1 className="subheader animatable fadeInLeft">
             from All Your Cards or Accounts with Just One Card
           </h1>
         </div>
-        <div className="img animate__animated animate__fadeInUp">
+        <div className="img animatable fadeInUp">
           <GifPlayer
             gif={process.env.PUBLIC_URL + "/images/debit-card.gif"}
             autoplay={true}
