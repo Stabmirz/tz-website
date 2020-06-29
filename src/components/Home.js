@@ -3,7 +3,8 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div id="home"
+    <div
+      id="home"
       className="hero container"
       style={{
         backgroundImage: `url(${

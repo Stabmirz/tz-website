@@ -64,7 +64,11 @@
     }
 }
 
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 640px){
+    .footer.container{
+        padding: 50px 0px;
+    }
+
     .footer-section {
         width: 100%;
         flex-direction: column;
@@ -73,7 +77,8 @@
         font-size: 2vw;
     }
     .footer-note{
-        width: 65vw;
+        width: 90%;
+        margin: auto;
     }
     .footer-note span{
         font-size: 3vw;
@@ -82,7 +87,7 @@
         font-size: 5vw;
     }
     .footer-logo , .footer-links {
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     .footer-logo img{

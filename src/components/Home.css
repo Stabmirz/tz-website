@@ -39,7 +39,7 @@
   text-shadow: 6px 6px 5px #01010163;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .hero-section {
     min-width: 80%;
     margin: 30vh auto auto;
@@ -50,23 +50,27 @@
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .hero-section {
     margin: auto auto;
   }
 }
 
-
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 640px) {
   .hero-text h1 {
     font-size: 12vw;
   }
 
- .hero-section {
+  .hero-section {
     min-width: 90vw;
   }
 
   .hero-text {
     top: 0vh;
+  }
+
+  .hero.container {
+    min-height: 90vh;
+    margin-bottom: -90px;
   }
 }

@@ -29,7 +29,7 @@
   background-color: #452b48;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 640px) {
    .cards-section {
     flex-direction: column;
   }

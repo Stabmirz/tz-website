@@ -136,6 +136,10 @@ form .border {
     padding: 10px;
     margin-left: -145px;
   }
+
+  .join-waitlist {
+    height: 34vh;
+  }
 }
 
 @media only screen and (max-width: 414px) {

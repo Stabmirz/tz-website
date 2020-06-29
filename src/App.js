@@ -14,9 +14,7 @@ import Access from "./components/Access";
 import Terms from "./components/TermsOfUse";
 import $ from "jquery";
 
-
 class App extends Component {
-
   componentDidMount() {
     const doAnimations = function () {
       // Calc current offset and get all animatables
@@ -24,7 +22,7 @@ class App extends Component {
         $animatables = $(".animatable");
 
       // Unbind scroll handler if we have no animatables
-      if ($animatables.length == 0) {
+      if ($animatables.length === 0) {
         $(window).off("scroll", doAnimations);
       }
 
@@ -48,7 +46,7 @@ class App extends Component {
         <Router>
           <NavBar />
           <Switch>
-            <Route exact path="/tz-website">
+            <Route exact path="/">
               <Home />
               <Waitlist />
               <Access />
@@ -58,7 +56,7 @@ class App extends Component {
               <Footer />
             </Route>
 
-            <Route path="/tz-website/terms">
+            <Route path="/terms">
               <Terms />
             </Route>
           </Switch>

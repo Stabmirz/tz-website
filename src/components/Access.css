@@ -22,7 +22,7 @@
   justify-content: center;
 }
 
-.access-section > div:last-child  h1 {
+.access-section > div:last-child h1 {
   line-height: 1.4;
   z-index: 1000;
   font-size: 2.5vw;
@@ -49,56 +49,43 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .access-section > div {
-        height: 20vh;
-    }
+  .access-section > div {
+    height: 20vh;
+  }
 }
 
-/* @media only screen and (max-width: 414px) {
+@media only screen and (max-width: 640px) {
+  .access-section > div:last-child {
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
 
-    .access-section > div:last-child h1 {
-        font-size: 3.5vw;
-        line-height: 1.2;
-    }
-    .paid {
-        left: 4vw;
-    }
-      
-      .online-shopping {
-        left: 20vw;
-    }
-    .access-section > div {
-        height: 16vh;
-    }
-} */
+  .access-section > div:last-child h1 {
+    font-size: 5vw;
+    line-height: 1.2;
+  }
+  .paid {
+    left: 4vw;
+    width: 64vw;
+  }
 
+  .online-shopping {
+    left: 35vw;
+    width: 50vw;
+    top: 19vw;
+  }
 
-@media only screen and (max-width: 414px) {
+  .access-section > div {
+    height: 75vh;
+  }
 
-
-    .access-section > div:last-child {
-      justify-content: flex-end;
-      padding-bottom: 10px;
-    }
-    
-    .access-section > div:last-child h1 {
-      font-size: 5vw;
-      line-height: 1.2;
-    }
-    .paid {
-        left: 4vw;
-        width: 64vw;
-    }
-      
-      .online-shopping {
-        left: 35vw;
-        width: 50vw;
-        top: 19vw;
-    }
-
-    .access-section > div {
-        height: 52vh;
-    }
+  .access-section {
+    margin-top: 160px;
+  }
 }
 
-
+@media only screen and (max-width: 445px) {
+  .access-section > div {
+    height: 52vh;
+  }
+}

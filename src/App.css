@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #26435e;
+  background-color: #4A8C9C;
   font-family: "Anton", sans-serif;
   padding: 0;
   margin: 0;
@@ -97,13 +97,20 @@ body {
   .navbar-nav .nav-link {
     margin: auto 0 auto 30px;
   }
-}
 
-@media only screen and (max-width: 414px) {
   .navbar-nav  {
     min-width: 90vw;
   }
+
+  .container {
+    min-height: fit-content;
+    padding: 100px 0px;
+
+  }
+
 }
+
+
 
 
 

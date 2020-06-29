@@ -36,7 +36,7 @@
 }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 640px) {
 
   .gif-section.container {
     min-width: 90vw;
@@ -55,35 +55,3 @@
     width: 47vw;
   }
 }
-
-/* @media only screen and (max-width: 414px) {
-
-  .gif-section.container {
-    min-width: 90vw;
-  }
-
-  .gif-container {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .gif-container > div {
-    width: 90%;
-    margin: auto auto 50px;
-  }
-
-  .gif-container .text h1 {
-    font-size: 16vw;
-  }
-
-  .gif-container .text .subheader {
-    font-size: 8vw;
-    margin-bottom: 60px;
-  }
-
-  .gif-container img {
-    width: 90vw;
-  }
-}
-
- */

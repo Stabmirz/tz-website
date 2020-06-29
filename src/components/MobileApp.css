@@ -62,12 +62,6 @@
 }
 
 @media only screen and (max-width: 640px){
-    /* .mobileApp-text {
-        padding: 10% 5% 0 0;
-    } */
-}
-
-@media only screen and (max-width: 414px){
 
     .mobileApp-img {
         width: 45vw;

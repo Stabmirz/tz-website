@@ -1,44 +1,47 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer container">
       <div className="footer-section">
         <div className="footer-logo">
-          <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="logo" />
+          <a className="nav-item nav-link" href="/">
+            <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
+          </a>
         </div>
         <div className="footer-links">
           <div>
-            <div className="pages">
-            <Link to="/tz-website/#waitlist">Waitlist</Link>
+          <div className="pages">
+              <a href="/#waitlist">
+                Waitlist
+              </a>
             </div>
             <div className="pages">
-              <Link to="/tz-website" >Press Inquiries</Link>
+              <a href="mailto:hello@tranzsend.com">Press Inquiries</a>
             </div>
             <div className="pages">
-                <Link to="/tz-website/terms" >Terms of Use</Link>
+              <a href="/terms">Terms of Use</a>
             </div>
             <div className="pages">
-              <Link to="/tz-website" >Privacy Policy</Link>
+              <a href="/images/TranZsend-Privacy-Policy.pdf" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
             </div>
           </div>
           <div>
             <div className="social-media">
-              <Link to="/tz-website" >Facebook</Link>
+              <a href="https://www.facebook.com/TranZsend-104049194706280" target="_blank" rel="noopener noreferrer">Facebook</a>
             </div>
             <div className="social-media">
-              <Link to="/tz-website" >Twitter</Link>
+              <a href="https://twitter.com/TranZsendApp" target="_blank" rel="noopener noreferrer">Twitter</a>
             </div>
             <div className="social-media">
-              <Link to="/tz-website" >Instagram</Link>
+              <a href="https://www.instagram.com/tranzsend/" target="_blank" rel="noopener noreferrer">Instagram</a>
             </div>
             <div className="social-media">
-              <Link to="/tz-website" >LinkedIn</Link>
+              <a href="https://www.linkedin.com/company/tranzsend/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
             <div className="social-media">
-              <Link to="/tz-website" >YouTube</Link>
+              <a href="https://www.youtube.com/user/Tranzsendapp" target="_blank" rel="noopener noreferrer">YouTube</a>
             </div>
           </div>
         </div>
