@@ -11,6 +11,11 @@
   width: 10%;
 }
 
+.access-section > div:first-child > img{
+  width: 100%;
+  height: 100%;
+}
+
 .access-section > div:last-child {
   background-color: #3e7588;
   width: 90%;
